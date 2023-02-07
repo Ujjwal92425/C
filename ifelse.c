@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 int main() {
     int a;
     printf("Enter your age %d\n",&a);
@@ -10,9 +10,9 @@ int main() {
     else
     printf("You Can't Vote");
     return 0;  
-}
+}*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     char name[20];
@@ -33,4 +33,16 @@ int main()
     }
     return 0;
 
-}
+}*/
+/*#include <stdio.h>
+int main ()  {
+    int a;
+    scanf("%d",&a);
+    if (a%5==0)
+    {
+        printf("Its square is :%d",a*a);
+    }
+    return 0;
+    
+    
+}*/
