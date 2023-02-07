@@ -38,11 +38,52 @@ int main()
 int main ()  {
     int a;
     scanf("%d",&a);
-    if (a%5==0)
+    if (a%2==0)
     {
-        printf("Its square is :%d",a*a);
+        printf("Even");
     }
+    else
+    printf("Odd");
+
+
     return 0;
     
     
 }*/
+/*#include <stdio.h>
+int main ()  {
+    int a;
+    scanf("%d",&a);
+    if (a%2==0 && a%3==0)
+    {
+        printf("Yes");
+    }
+    else
+    printf("No");
+    return 0;  
+}
+*/
+#include <stdio.h>
+int main()  {
+    int a,b,c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+
+    if (a>b && a>c)
+    {
+        printf("a is the Greatest");
+    }
+    else if (b>c)
+    {
+        printf("b is grestest");
+    }
+    
+    else 
+    
+        printf(" c is greatest");
+        
+    return 0;
+    
+    
+}
