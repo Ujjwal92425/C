@@ -35,7 +35,7 @@ Output
 ---------
 You have to output 1 if they are either in strictly increasing (a>b>c) or decreasing (a<b<c) order.
 Output 0, otherwise. */
-#include <stdio.h>
+/*#include <stdio.h>
 int main ()  {
     int a,b,c;
     scanf("%d%d%d", &a,&b,&c);
@@ -47,7 +47,7 @@ int main ()  {
         printf("0");
     }
     return 0;
-}
+}*/
 /*Objective
 
 This challenge will help you to learn how to take a character, a string and a sentence as input in C.
@@ -169,4 +169,22 @@ C
 Language
 Welcome To C!!
 */
-#include <stdio.h>
+/*You have a certain number of 100 rupee notes, 10 rupee notes and 1 rupee notes with you.
+There is an item you want to buy whose price is given to you.
+Write a program to find if the item is affordable, that is the price of the item is less than or equal to the current money you have.
+
+
+Input
+-----
+Four non negative integers. 
+The first input is an integer representing the number of 100 rupee notes.
+The second input is an integer representing the number of 10 rupee notes.
+The third input is an integer representing the number of 1 rupee notes.
+The fourth input is an integer representing the price of the item.
+
+Output
+------
+You have to output 1 if the item is affordable.
+You have to output 0 if the item is not affordable.
+
+*/
