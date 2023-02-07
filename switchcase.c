@@ -11,7 +11,7 @@ int main()
     switch (number)
     {
     case 7:
-        printf("YOU HAVE GUSSED THE RIGHT NUMBER\n *****----- CONGRATULATIONS----- ****");
+        printf("YOU HAVE GUSSED THE RIGHT NUMBER\n \t *****----- CONGRATULATIONS----- ****");
         break;
 
     default:

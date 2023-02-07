@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 int main() {
     int a;
     printf("Enter your age %d\n",&a);
@@ -10,7 +10,8 @@ int main() {
     else
     printf("You Can't Vote");
     return 0;  
-}*/
+}
+
 #include <stdio.h>
 int main()
 {
