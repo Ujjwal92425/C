@@ -55,7 +55,7 @@ int main()
     }
     return 0;
 }
-*/
+
 
 #include <stdio.h>
 int main()
@@ -119,4 +119,31 @@ int main()
     
 
     return 0;
+}*/
+
+#include <stdio.h>
+int main()
+{
+    int x;
+   
+    scanf("%d", &x);
+    if (x==2,3)
+    {
+        printf("Spring");
+    }
+    else if (x==4,5,6,7,8,9)
+    {
+        printf("Summer");
+        
+    }
+    else if (x==10,11)
+    {
+        printf("Auttum");
+    }
+    
+    else if (x==1,12)
+    {
+        printf("Winter");
+    }
+    return 0;  
 }
