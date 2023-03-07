@@ -5,7 +5,7 @@
 
 // Function to print square of a number
 
-#include <stdio.h>
+/*#include <stdio.h>
 int square(int x)
 {
     return x * x;
@@ -25,4 +25,20 @@ int main()
         scanf("%c",&ch);
 
     } while (ch == 'Y');
+}*/
+
+
+
+#include <stdio.h>
+int add(int a , int b)
+{
+    return a + b ;
+}
+int mul(int a , int b)
+{
+    return a * b;
+}
+int sub (int a , int b)
+{
+    return a-b;
 }
