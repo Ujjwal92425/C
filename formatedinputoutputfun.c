@@ -66,3 +66,7 @@ int main () {
 
 
 }
+
+
+// call by value, values of actual parameter will be copied to formal
+// call by refference: the address of actual parameter is copied to the formal(in this case is pointer variable)
